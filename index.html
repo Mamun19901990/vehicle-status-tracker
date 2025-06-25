@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيانات مركبات الغاز - دهوك</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Kurdistan.svg/1200px-Flag_of_Kurdistan.svg.png" alt="علم كردستان" class="logo">
+            <h1>بيانات مركبات الغاز</h1>
+            <h2>محافظة دهوك</h2>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <input type="text" id="plateNumberInput" placeholder="أدخل رقم لوحة المركبة (مثال: 0000 د)">
+                <button id="searchButton">بحث</button>
+            </div>
+
+            <div class="results-section" id="resultsSection">
+                <p class="placeholder-text">الرجاء إدخال رقم لوحة المركبة والبحث.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 فريق تطوير دهوك. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
