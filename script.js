@@ -1,6 +1,6 @@
 // قم بتغيير هذه القيم إلى مفاتيح Supabase الخاصة بك
-const SUPABASE_URL = 'YOUR_SUPABASE_URL'; // مثال: https://xyzcompany.supabase.co
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY'; // مثال: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+const SUPABASE_URL = 'https://elhjojtmcdhjtptptrmnfj.supabase.co'; // تم تحديث هذا بناءً على ما أرسلته
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsaGpvanRtY2RoanRwdHJtbmZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4Mzg2NDksImV4cCI6MjA2NjQxNDY0OX0.DECnCvVxldJrVKVAU96Yti97PMuVlfPSsc0pduq7'; // تم تحديث هذا بناءً على ما أرسلته
 
 const { createClient } = supabase;
 const _supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
